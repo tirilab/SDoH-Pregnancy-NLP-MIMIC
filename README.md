@@ -22,7 +22,6 @@ The repository also contains code for:
 ```
 SDoH-Pregnancy-NLP/
 ├── README.md
-├── LICENSE
 ├── data/
 │   ├── MIMIC-III/         # Raw and preprocessed MIMIC-III files
 │   └── MIMIC-IV/          # Raw and preprocessed MIMIC-IV files
@@ -90,10 +89,6 @@ The project uses data from:
 ## Contributions
 
 Contributions to improve the models, codebase, or documentation are welcome. Please follow the standard GitHub flow with pull requests and clear commit messages.
-
-## License
-
-This project is licensed under the [MIT License](https://www.physionet.org/content/mimic-iv-note/view-license/2.2/).
 
 ## Contact
 
