@@ -120,7 +120,11 @@ female_notes_comp['text_sh'] = female_notes_comp['text'].apply(extract_social_hi
 # For validation, we combine a subset of normal (complication=0) and complicated (complication=1) notes.
 female_notes_normal['complication'] = 0
 female_notes_comp['complication'] = 1
-notes_validation = pd.concat([female_notes_comp, female_notes_normal]).drop_duplicates(subset=['note_id']).reset_index(drop=True)
+notes_for_annotation = pd.concat([female_notes_comp, female_notes_normal]).drop_duplicates(subset=['note_id']).reset_index(drop=True)
+notes_for_annotation.to_csv(os.path.join(base_path, 'notes_for_annotation.csv'))
+####################################
+# Annotation Assignment and Agreement Analysis from other notebook- csv with gold standard data: annotatated_notes_mimiciv.csv
+####################################
 
 # For evaluation, we load your manually annotated validation set (60 notes)
 annotated_df = pd.read_csv(os.path.join(base_path, 'annotatated_notes_mimiciv.csv'))
