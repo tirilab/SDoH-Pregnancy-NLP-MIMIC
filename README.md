@@ -58,7 +58,7 @@ The project uses data from:
 - **MIMIC-III:** Discharge notes, patient demographics, ICD diagnoses, and ICD procedures.
 - **MIMIC-IV:** Discharge notes, admissions, and patient demographics.
 
-**Note:** Access to the MIMIC databases requires completion of the required training and adherence to the data use agreement. [MIMIC Train](https://www.physionet.org/content/mimic-iv-note/view-required-training/2.2/)
+**Note:** Access to the MIMIC databases requires completion of the required training and adherence to the data use agreement. [MIMIC Training](https://www.physionet.org/content/mimic-iv-note/view-required-training/2.2/)
 
 ## Usage
 
@@ -93,7 +93,7 @@ Contributions to improve the models, codebase, or documentation are welcome. Ple
 
 ## License
 
-This project is licensed under the [MIT License]([LICENSE](https://www.physionet.org/content/mimic-iv-note/view-license/2.2/)).
+This project is licensed under the [MIT License](https://www.physionet.org/content/mimic-iv-note/view-license/2.2/).
 
 ## Contact
 
