@@ -23,8 +23,8 @@ The repository also contains code for:
 SDoH-Pregnancy-NLP/
 ├── README.md
 ├── data/
-│   ├── MIMIC-III/         # Raw and preprocessed MIMIC-III files
-│   └── MIMIC-IV/          # Raw and preprocessed MIMIC-IV files
+│   ├── MIMIC-III/         # Annotated MIMIC-III data
+│   └── MIMIC-IV/          # Annotated MIMIC-IV data
 ├── notebooks/
 │   ├── MIMICIII_SDoH_training_evaluation.py    # Code for training and evaluating models on MIMIC-III
 │   ├── MIMICIV_SDoH_validation.py       # Code for validating models on MIMIC-IV
