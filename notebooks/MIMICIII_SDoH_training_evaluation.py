@@ -178,7 +178,7 @@ classifier_ss = KeywordClassifier(kp_social, ['No Social support', 'Social Suppo
 kp_occup = KeywordProcessor()
 occupation_keywords = [
     "employed", "retired", "work as", "worked in", "works in", "works as", "worked", 
-    "job", "employment", "quit", "unemployed", "jobless", "working", "works"
+    "job", "employment", "quit job",'stopped working', "unemployed", "jobless", "working"
 ]
 kp_occup.add_keywords_from_list(occupation_keywords)
 classifier_occup = KeywordClassifier(kp_occup, ['No Occupation', 'Occupation'])
@@ -189,11 +189,10 @@ classifier_occup = KeywordClassifier(kp_occup, ['No Occupation', 'Occupation'])
 kp_substance = KeywordProcessor()
 substance_keywords = [
     "alcohol use", "drink alcohol", "consume alcohol", "alcohol consumption", "drink", "drinks", "drinking",
-    "tobacco use", "smoke", "cigarette", "nicotine", "smokes", "smoking", "pack", "packs",
-    "drug use", "substance abuse", "illicit drug use", "use drugs", "drug consumption", "drug habit", "drug addiction",
-    "no alcohol use", "no drinking", "no alcohol consumption", "not drink alcohol", "not consume alcohol", "not drinking",
-    "no tobacco use", "not smoke", "not smoking", "not cigarette", "no nicotine", "not smoking",
-    "no drug use", "not use drugs", "no substance abuse", "not illicit drug use", "no drug consumption", "no drug habit", "no drug addiction"
+    "tobacco use", "smokes", "cigarette smoker", "nicotine", "smokes", "smoking", "pack", "packs",
+    "drug use", "substance abuse", "illicit drug use", "use drugs", "drug consumption", "drug habit", "drug addiction", "cannabis abuse",
+  
+  
 ]
 kp_substance.add_keywords_from_list(substance_keywords)
 classifier_substance = SubstanceClassifier(kp_substance)
