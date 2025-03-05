@@ -188,7 +188,7 @@ classifier_occup = KeywordClassifier(kp_occup, ['No Occupation', 'Occupation'])
 # --------------------------
 kp_substance = KeywordProcessor()
 substance_keywords = [
-    "alcohol use", "drink alcohol", "consume alcohol", "alcohol consumption", "drink", "drinks", "drinking",
+    "alcohol use", "drink alcohol", "consume alcohol", "alcohol consumption", "drink", "drinks", "drinking",'cocaine use',
     "tobacco use", "smokes", "cigarette smoker", "nicotine", "smokes", "smoking", "pack", "packs", 'tob use','marijuana','CBD',
   'cannabis', 'cannabinoid use', 'marijuana use', 'marihuana', 'tetrahydrocannabinol', 'cannabidiol', 'cannabigerole', 'cannabinol'
     "drug use", "substance abuse", "illicit drug use", "use drugs", "drug consumption", "drug habit", "drug addiction", "cannabis abuse",
