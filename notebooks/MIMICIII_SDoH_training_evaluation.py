@@ -177,8 +177,8 @@ classifier_ss = KeywordClassifier(kp_social, ['No Social support', 'Social Suppo
 # --------------------------
 kp_occup = KeywordProcessor()
 occupation_keywords = [
-    "employed", "retired", "work as", "worked in", "works in", "works as", "worked", 
-    "job", "employment", "quit job",'stopped working', "unemployed", "jobless", "working"
+    "employed", "retired", "work as", "worked in", "works in", "works as", "worked", " works at", "works here", "employment",
+  "quit job",'stopped working', "unemployed", "jobless", "works here","working"
 ]
 kp_occup.add_keywords_from_list(occupation_keywords)
 classifier_occup = KeywordClassifier(kp_occup, ['No Occupation', 'Occupation'])
@@ -188,8 +188,8 @@ classifier_occup = KeywordClassifier(kp_occup, ['No Occupation', 'Occupation'])
 # --------------------------
 kp_substance = KeywordProcessor()
 substance_keywords = [
-    "alcohol use", "drink alcohol", "consume alcohol", "alcohol consumption", "drink", "drinks", "drinking",'cocaine use',
-    "tobacco use", "smokes", "cigarette smoker", "nicotine", "smokes", "smoking", "pack", "packs", 'tob use','marijuana','CBD',
+    "alcohol use", "drink alcohol", "consume alcohol", "alcohol consumption", "drink", "drinks", "drinking",'cocaine use', 'EtOH',
+    "tobacco use", "smokes", "cigarette smoker", "nicotine", "smokes", "smoking", "pack", "packs", 'tob use','marijuana','CBD','heroin use',
   'cannabis', 'cannabinoid use', 'marijuana use', 'marihuana', 'tetrahydrocannabinol', 'cannabidiol', 'cannabigerole', 'cannabinol'
     "drug use", "substance abuse", "illicit drug use", "use drugs", "drug consumption", "drug habit", "drug addiction", "cannabis abuse",
   
