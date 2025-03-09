@@ -25,7 +25,8 @@ SDoH-Pregnancy-NLP/
 ├── notebooks/
 │   ├── MIMICIII_SDoH_training_evaluation.py    # Code for training and evaluating models on MIMIC-III
 │   ├── MIMICIV_SDoH_validation.py       # Code for validating models on MIMIC-IV
-│   └── Annotation_Assignment_and_Agreement.py    # Code for assigning notes, annotation, and agreement analysis  
+│   └── Annotation_Assignment_and_Agreement.py    # Code for assigning notes, annotation, and agreement analysis
+|   └── demographic_characterstics.py #code for calculating demographic characteristics
 └── requirements.txt       # Required Python packages and versions
 ```
 
@@ -81,8 +82,7 @@ The project uses data from MIMIC database (MIMIC III and IV), the annotated data
 ### Demographic Analysis
 
 - **Demographics:**  
-  The `preprocessing.py` script includes functions to merge admissions data with notes, compute age, assign age buckets, and generate population characteristics tables. Refer to the corresponding notebook sections in either the MIMIC-III or MIMIC-IV notebooks.
-
+  The `demographic_characterstics.py` script includes functions to merge admissions data with notes, compute age, assign age buckets, and generate population characteristics tables.
 ## Contributions
 
 Contributions to improve the models, codebase, or documentation are welcome. Please follow the standard GitHub flow with pull requests and clear commit messages.
