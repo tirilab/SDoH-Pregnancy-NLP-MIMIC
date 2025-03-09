@@ -22,9 +22,6 @@ The repository also contains code for:
 ```
 SDoH-Pregnancy-NLP/
 ├── README.md
-├── data/
-│   ├── MIMIC-III/         # Annotated MIMIC-III data
-│   └── MIMIC-IV/          # Annotated MIMIC-IV data
 ├── notebooks/
 │   ├── MIMICIII_SDoH_training_evaluation.py    # Code for training and evaluating models on MIMIC-III
 │   ├── MIMICIV_SDoH_validation.py       # Code for validating models on MIMIC-IV
@@ -53,9 +50,9 @@ SDoH-Pregnancy-NLP/
 
 ## Data
 
-The project uses data from:
-- **MIMIC-III:** Discharge notes, patient demographics, ICD diagnoses, and ICD procedures.
-- **MIMIC-IV:** Discharge notes, admissions, and patient demographics.
+The project uses data from MIMIC database (MIMIC III and IV), the annotated data can be found on [PhysioNet](https://physionet.org/projects/H5W31CeYx0EOsB05USg4/overview/):
+- **MIMICIII_annotation_PregnancySDOH.csv:** Discharge notes with text, and annotations for substance use, social support and occupation.
+- **MIMICIV_annotation_PregnancySDOH.csv:** Discharge notes, admissions, and patient demographics.
 
 **Note:** Access to the MIMIC databases requires completion of the required training and adherence to the data use agreement. [MIMIC Training](https://www.physionet.org/content/mimic-iv-note/view-required-training/2.2/)
 
