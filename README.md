@@ -85,7 +85,7 @@ The project uses data from MIMIC database (MIMIC III and IV), the annotated data
   The `demographic_characterstics.py` script includes functions to merge admissions data with notes, compute age, assign age buckets, and generate population characteristics tables.
 ## Contributions
 
-Contributions to improve the models, codebase, or documentation are welcome. Please follow the standard GitHub flow with pull requests and clear commit messages.
+Contributions to improve the models, codebase, or documentation are welcome. Please follow the standard GitHub flow with pull requests and clear commit messages. Contact: [Nidhi Soley](nsoley1@jhu.edu) 
 
 ## Refereces
 1. Soley, N., Shah, J., Bentil, M., Rouhizadeh, M., & Taylor, C. (2025). Annotated SDoH Dataset for Adverse Pregnancy Outcomes (version 1.0.0). PhysioNet. https://doi.org/10.13026/*****. (under review)
