@@ -51,7 +51,7 @@ SDoH-Pregnancy-NLP/
 
 ## Data
 
-The project uses data from MIMIC database (MIMIC III and IV), the annotated data can be found on [PhysioNet](https://physionet.org/projects/H5W31CeYx0EOsB05USg4/overview/) [1]:
+The project uses data from MIMIC database (MIMIC III and IV), the annotated data can be found on [PhysioNet](https://physionet.org/projects/H5W31CeYx0EOsB05USg4/overview/) (under review) [1]:
 - **MIMICIII_annotation_PregnancySDOH.csv:** Discharge notes with text, and annotations for substance use, social support and occupation.
 - **MIMICIV_annotation_PregnancySDOH.csv:** Discharge notes, admissions, and patient demographics.
 
@@ -88,7 +88,7 @@ The project uses data from MIMIC database (MIMIC III and IV), the annotated data
 Contributions to improve the models, codebase, or documentation are welcome. Please follow the standard GitHub flow with pull requests and clear commit messages.
 
 ## Refereces
-1. Soley, N., Shah, J., Bentil, M., Rouhizadeh, M., & Taylor, C. (2025). Annotated SDoH Dataset for Adverse Pregnancy Outcomes (version 1.0.0). PhysioNet. https://doi.org/10.13026/*****.
+1. Soley, N., Shah, J., Bentil, M., Rouhizadeh, M., & Taylor, C. (2025). Annotated SDoH Dataset for Adverse Pregnancy Outcomes (version 1.0.0). PhysioNet. https://doi.org/10.13026/*****. (under review)
 
 
  
