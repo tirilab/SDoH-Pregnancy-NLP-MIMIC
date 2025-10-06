@@ -93,7 +93,7 @@ Contributions to improve the models, codebase, or documentation are welcome. Ple
 
 ## License
 
-Code in this repository is released under the MIT License. See the [LICENSE](./LICENSE) file for details.
+Code in this repository is released under the MIT License. See the [LICENSE](./LICENSE.txt) file for details.
 
 ## Data Access & Licensing
 
