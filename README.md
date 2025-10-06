@@ -51,7 +51,7 @@ SDoH-Pregnancy-NLP/
 
 ## Data
 
-The project uses data from MIMIC database (MIMIC III and IV), the annotated data can be found on [PhysioNet](https://physionet.org/projects/H5W31CeYx0EOsB05USg4/overview/) (under review) [1]:
+The project uses data from MIMIC database (MIMIC III and IV), the annotated data can be found on [PhysioNet](https://physionet.org/projects/H5W31CeYx0EOsB05USg4/overview/) [1]:
 - **MIMICIII_annotation_PregnancySDOH.csv:** Discharge notes with text, and annotations for substance use, social support and occupation.
 - **MIMICIV_annotation_PregnancySDOH.csv:** Discharge notes, admissions, and patient demographics.
 
@@ -88,7 +88,15 @@ The project uses data from MIMIC database (MIMIC III and IV), the annotated data
 Contributions to improve the models, codebase, or documentation are welcome. Please follow the standard GitHub flow with pull requests and clear commit messages. Contact: [Nidhi Soley](nsoley1@jhu.edu) 
 
 ## Refereces
-1. Soley, N., Bentil, M., Shah, J., Rouhizadeh, M., & Taylor, C. (2025). Annotated SDoH Dataset for Adverse Pregnancy Outcomes (version 1.0.0). PhysioNet (under review).
+1. Soley, N., Bentil, M., Shah, J., Rouhizadeh, M., & Taylor, C. (2025). Annotated Social Determinants of Health Dataset for Adverse Pregnancy Outcomes (version 1.0.0). PhysioNet. RRID:SCR_007345. https://doi.org/10.13026/qk2y-wx30
+2. Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220. RRID:SCR_007345.
 
+## License
+
+Code in this repository is released under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+## Data Access & Licensing
+
+This repository does not include MIMIC data or any protected content. Access to **MIMIC-III** and **MIMIC-IV** requires completion of required training and adherence to the Data Use Agreement. The use of the **annotated SDoH dataset** is governed by the license and terms posted on PhysioNet.
 
  
