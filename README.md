@@ -99,4 +99,19 @@ Code in this repository is released under the MIT License. See the [LICENSE](./L
 
 This repository does not include MIMIC data or any protected content. Access to **MIMIC-III** and **MIMIC-IV** requires completion of required training and adherence to the Data Use Agreement. The use of the **annotated SDoH dataset** is governed by the license and terms posted on PhysioNet.
 
- 
+## How to cite
+
+If you use this repository in your work, please cite our paper:
+
+Soley, N., Bentil, M., Shah, J. et al. *Unveiling social determinants of health impact on adverse pregnancy outcomes through natural language processing.* Sci Rep 15, 29183 (2025). https://doi.org/10.1038/s41598-025-13542-x
+**BibTeX:**
+```bibtex
+@article{Soley2025SDoHPregnancyNLP,
+  title   = {Unveiling social determinants of health impact on adverse pregnancy outcomes through natural language processing},
+  author  = {Soley, Nidhi and Bentil, MaKhaila and Shah, Jash and Rouhizadeh, Masoud and Overby Taylor, Casey},
+  journal = {Scientific Reports},
+  year    = {2025},
+  volume  = {15},
+  pages   = {29183},
+  doi     = {10.1038/s41598-025-13542-x}
+}
