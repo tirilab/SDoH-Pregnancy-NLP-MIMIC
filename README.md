@@ -104,6 +104,7 @@ This repository does not include MIMIC data or any protected content. Access to 
 If you use this repository in your work, please cite our paper:
 
 Soley, N., Bentil, M., Shah, J. et al. *Unveiling social determinants of health impact on adverse pregnancy outcomes through natural language processing.* Sci Rep 15, 29183 (2025). https://doi.org/10.1038/s41598-025-13542-x
+
 **BibTeX:**
 ```bibtex
 @article{Soley2025SDoHPregnancyNLP,
